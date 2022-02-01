@@ -35,7 +35,7 @@ import java.util.ListIterator;
 
 public class ModResistantType extends ArmorModifierTrait {
 
-    private static final float BASE_REDUCTION = 0.02F;
+    private static final float BASE_REDUCTION = 0.01F;
     private final EnchantmentProtection.Type type;
 
     public ModResistantType(String identifier, int color, EnchantmentProtection.Type type) {
