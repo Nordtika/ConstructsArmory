@@ -34,7 +34,7 @@ import slimeknights.tconstruct.tools.TinkerTools;
 
 public class TraitSpiny extends AbstractArmorTrait {
 
-    private static final float CHANCE = 0.3F;
+    private static final float CHANCE = 0.15F;
 
     public TraitSpiny() {
         super("spiny", TextFormatting.DARK_GREEN);
@@ -55,7 +55,7 @@ public class TraitSpiny extends AbstractArmorTrait {
         damageSource.setIsThornsDamage();
         int oldHurtResistantTime = target.hurtResistantTime;
         int armorDamage = 1;
-        int attackDamage = random.nextInt(4) + 1;
+        int attackDamage = random.nextInt(2) + 1;
         if (attackEntitySecondary(damageSource, attackDamage, target, true, false, false)) {
             TinkerTools.proxy.spawnEffectParticle(ParticleEffect.Type.HEART_CACTUS, target, 1);
             armorDamage = 3;

@@ -45,7 +45,7 @@ public class TraitVengeful extends AbstractArmorTrait {
     public float onHurt(ItemStack armor, EntityPlayer player, DamageSource source, float damage, float newDamage, LivingHurtEvent evt) {
         Entity entity = source.getTrueSource();
         if (entity instanceof EntityLivingBase && !(entity instanceof FakePlayer)) {
-            if (random.nextFloat() < 0.15F) {
+            if (random.nextFloat() < 0.05F) {
                 Potion potion;
                 switch(random.nextInt(4)) {
                     case 0:

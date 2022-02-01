@@ -28,7 +28,7 @@ import slimeknights.tconstruct.library.utils.TagUtil;
 
 public class TraitSkeletal extends AbstractArmorTrait {
 
-    private static final float MULTIPLIER = 0.5F;
+    private static final float MULTIPLIER = 0.25F;
 
     public TraitSkeletal() {
         super("skeletal", TextFormatting.WHITE);

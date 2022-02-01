@@ -28,7 +28,7 @@ import slimeknights.tconstruct.library.utils.TinkerUtil;
 
 public class TraitIndomitable extends AbstractArmorTrait {
 
-    private static final float MULTIPLIER = 0.2F;
+    private static final float MULTIPLIER = 0.05F;
 
     public TraitIndomitable() {
         super("indomitable", 0xffffff);

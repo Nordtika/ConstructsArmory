@@ -36,7 +36,7 @@ import java.util.List;
 
 public class TraitInfernal extends AbstractArmorTrait {
 
-    private static final float MODIFIER = 0.2F;
+    private static final float MODIFIER = 0.1F;
 
     public TraitInfernal() {
         super("infernal", 0xff0000);
